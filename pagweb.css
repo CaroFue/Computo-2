@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+}
+.menu-enlace{
+    display: inline-block;
+    background: #5e65e8;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.header{
+    font-family: 'Baskerville';
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),url(Imag/principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: rgb(220, 204, 183);
+    font-size: 25px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: antiquewhite;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #9196fd;
+}
+
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 70px;
+}
+
+.header-content{
+    text-align: center;
+
+}
+
+.header-content h1{
+    text-align: center;
+    font-size: 145px;
+    line-height: 80px;
+    color: rgb(35, 68, 144);
+}
+
+.header-txt{
+    width: 70%;
+}
+.header-txt h1{
+   
+    line-height: 110px;
+    color: #986af5;
+    font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.services{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),url(Imag/services.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+}
+.services-content{
+    text-align: center;
+    justify-content: center;
+}
+
+.services-content h2{
+    font-size: 55px;
+    line-height: 50px;
+    color:antiquewhite;
+    margin-bottom: 50px;
+}
+
+.services-content p{
+    font-size: 27px;
+    color: aliceblue;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.btn-1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #9397d6;
+}
+.btn-1:hover{
+    color: antiquewhite;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+
+}
+
+.card{
+    width: 100%;
+    margin:  35px 40px;
+    align-items: center;
+
+    justify-content: center;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgba(63, 149, 171, 0.879);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.card .contenido{
+    padding: 20px 20px;
+    text-align: center;
+ }
+
+.card .contenido h3{
+      font-weight: 600;
+    
+}
+
+button{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #9296ec;
+}
+button:hover{
+    background-color:#4f56e3;
+}
+
+.wrapper{
+    font-family: "Sour Gummy", sans-serif;
+    margin: 50px;
+    display: flex;
+    width: 450;
+    height: 550;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+.wrapper img{
+    width: 390px;
+    height: 440px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.wrapper h2{
+    color: rgb(50, 118, 178);
+}
+.wrapper p{
+    font-size: 27px;
+    color: black;
+    padding: 10 50px;
+}
+
+.ayuda{
+    font-size: 27px;
+    color: rgb(50, 118, 178);
+    padding: 0 50px;
+}
+
+
+.informacion{
+    background-color: aquamarine;
+    text-align: center;
+}
+#beneficios .container{
+    padding: 10px 30px;
+}
+.beneficios h2{
+   
+    font-size:10px;
+}
+.beneficios:first-child{
+    background-image:url("Imag/com.jpg"); 
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+
+.beneficios:nth-child(2){
+    background-image: url("Imag/jugar.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+
+
+}
+
+.beneficios:nth-child(3){
+    background-image: url("Imag/vet.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+
+.beneficios:nth-child(4){
+    background-image: url("Imag/uno.jpeg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.causa{
+    font-weight: bold;
+}
+
+.testimony{
+    font-family: "Montserrat", sans-serif;
+    background-color: #6ac7f5;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 300px;
+    width: auto;
+    margin: 40px;
+
+}
+
+.testimony_container{
+    margin: 50px;
+
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    gap: 1em;
+}
+
+.testimony_body{
+    font-family: "Libre Baskerville", serif;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    transition: opacity 1.5s;
+}
+
+.testimony_body--show{
+    pointer-events: unset;
+    opacity:1 ;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.testimony_img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.testimony_texts{
+    font-weight: 350px;
+}
+
+.testimony_course{
+    display: inline-block;
+    padding: 5px;
+}
+
+.testimony_arrow{
+    width: 90%;
+    cursor: pointer;
+}
+
+.testimony_review p{
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}

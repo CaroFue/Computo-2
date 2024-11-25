@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;;
+  font-style: normal;
+    text-decoration: none;
+    list-style:none;
+}
+
+.header{
+    min-height: 15vh;
+
+    align-items: center;
+}
+
+.logo{
+    color: rgb(45, 5, 43);
+    font-size: 25px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float:left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(45, 5, 43);
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color:rgb(189, 160, 142);
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 50px;
+}
+
+.header-content{
+    font-size: 75px;
+    line-height: 80px;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    padding:20px;
+    gap:10px;
+    width: 1000px;
+}
+.general{
+    display: flex;
+    margin: 50px;
+    font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+    
+}
+.general-1{
+    width: 50%;
+    padding: 150px 250px 100px 100px;
+    background-color: #6ab3f5
+    
+}
+
+.general-1 h2{
+    font-size: 30px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.general-2{
+    background-image: url(acerca.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(gato.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-4{
+    background-image: url(conejo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-2 h2{
+    font-size: 60px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+  
+}
+
+.general-3 h2{
+    font-size: 60px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.general-4 h2{
+    font-size: 60px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+p{
+    font-size: 20px;
+    color: black;
+    margin: 25px 0 45px 0;
+}
